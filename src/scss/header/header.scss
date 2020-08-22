@@ -1,1 +1,24 @@
-@import "../main/main.scss";
+@import "../vars";
+
+.header
+{
+  width: 100%;
+  background-color: $bb_white;
+  padding: 30px $horizontal_padding;
+  position: fixed;
+  z-index: 999;
+}
+
+.header__menu div
+{
+  width: 22px;
+  height: 2px;
+  margin-top: 5px;
+  background-color: black;
+}
+
+//Media queries
+@import "./small";
+@import "./medium";
+@import "./large";
+@import "./xLarge";

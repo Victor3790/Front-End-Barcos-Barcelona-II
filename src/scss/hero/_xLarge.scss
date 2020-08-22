@@ -1,0 +1,13 @@
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+    .section__picture
+    {
+        width: 890px;
+    }
+      
+    .section__text
+    {
+       width: calc(100% - 890px);
+       //padding: 6% 5%;
+    }
+}
