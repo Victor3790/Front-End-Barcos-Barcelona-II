@@ -1,4 +1,18 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
+    .header__menu-icon
+    {
+        margin-top: 20px;
+    }
 
+    .header__logo__img
+    {
+        width: 200px;
+        margin-top: 0;
+    }
+
+    .header__search
+    {
+        margin-top: 20px;
+    }
 }

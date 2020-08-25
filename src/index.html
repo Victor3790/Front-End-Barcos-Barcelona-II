@@ -9,10 +9,28 @@
 <body>
   <header>
     <div class="header">
-      <div class="header__menu">
-        <div></div>
-        <div></div>
-         <div></div>
+      <nav>
+        <div class="header__menu-icon">
+          <div class="header__menu__line"></div>
+          <div class="header__menu__line"></div>
+          <div class="header__menu__line"></div>
+        </div>
+        <div class="header__menu">
+          <div class="header__menu__close">
+            <div class="close"></div>
+          </div>
+          <ul class="header__menu__list">
+            <li class="header__menu__item">CHARTER</li>
+            <li class="header__menu__item">SALES</li>
+            <li class="header__menu__item">ABOUT US</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__logo">
+        <img class="header__logo__img" src="./imgs/logo.png" alt="">
+      </div>
+      <div class="header__search">
+        <img src="./imgs/lupa.png" alt="" style="width: 20px;">
       </div>
     </div>
   </header>
@@ -24,8 +42,12 @@
       <img  class="section__picture__img"
             src="imgs/section1.jpg" 
             alt="" 
-            srcset="./imgs/section1_xs.jpg 600w"
-            sizes="(max-width: 576px)">
+            srcset="./imgs/section1_xs.jpg 600w,
+                    ./imgs/section1_sm.jpg 800w,
+                    ./imgs/section1.jpg 890w"
+            sizes="(max-width: 576px) 600px,
+                   (max-width: 768px) 800px,
+                   890px">
     </div>
     <div class="section__text section__text--justified section--left">
       <h2>YACHT CHARTERS</h2>
@@ -46,8 +68,12 @@
       <img  class="section__picture__img"
             src="imgs/section2.jpg" 
             alt="" 
-            srcset="./imgs/section2_xs.jpg 600w"
-            sizes="(max-width: 576px)">
+            srcset="./imgs/section2_xs.jpg 600w,
+                    ./imgs/section2_sm.jpg 800w,
+                    ./imgs/section2.jpg 890w"
+            sizes="(max-width: 576px) 600px,
+                   (max-width: 768px) 800px,
+                   890px">
     </div>
     <div class="section__text section__text--justified section--right">
       <h2>YACHT CHARTERS</h2>
@@ -68,8 +94,12 @@
       <img  class="section__picture__img"
             src="imgs/section3_xs.jpg" 
             alt="" 
-            srcset="./imgs/section3_xs.jpg 600w"
-            sizes="(max-width: 576px)">
+            srcset="./imgs/section3_xs.jpg 600w,
+                    ./imgs/section3_sm.jpg 800w,
+                    ./imgs/section3.jpg 890w"
+            sizes="(max-width: 576px) 600px,
+                   (max-width: 768px) 800px,
+                   890px">
     </div>
     <div class="section__text section__text--justified section--left">
       <h2>YACHT CHARTERS</h2>
@@ -90,8 +120,12 @@
       <img  class="section__picture__img"
             src="imgs/section4_xs.jpg" 
             alt="" 
-            srcset="./imgs/section4_xs.jpg 600w"
-            sizes="(max-width: 576px)">
+            srcset="./imgs/section4_xs.jpg 600w,
+                    ./imgs/section4_sm.jpg 800w,
+                    ./imgs/section4.jpg 890w"
+            sizes="(max-width: 576px) 600px,
+                   (max-width: 768px) 800px,
+                   890px">
     </div>
     <div class="section__text section__text--justified section--right">
       <h2>YACHT CHARTERS</h2>
@@ -106,13 +140,56 @@
       </p>
     </div>
   </div>
-  <div class="section section--dark">
-    <div class="section__form section--justified">
+  <div class="section section--justified section--dark">
+    <div class="section__form">
       <h2>Envianos un mensaje.</h2>
+      <form>
+        <label class="section__form__label" for="name">Nombre</label><br>
+        <input class="section__form__input" type="text"><br>
+        <label class="section__form__label" for="mail">Correo</label><br>
+        <input class="section__form__input" type="text"><br>
+        <label class="section__form__label" for="message">Mensaje</label><br>
+        <textarea class="section__form__input" name="message" id="" cols="30" rows="8">
+        </textarea><br>
+        <input class="section__form__button" type="submit" value="Enviar mensaje">
+      </form>
     </div>
-    <div class="section__contact section--justified">
+    <div class="section__contact">
       <h2>Contacto.</h2>
+      <ul class="section__contact__info-group">
+        <li>Teléfono:</li>
+        <li>(0034) 620 26 90 20</li>
+      </ul>
+      <ul class="section__contact__info-group">
+        <li>Mail:</li>
+        <li>info@barcosbarcelona.com</li>
+      </ul>
+      <ul class="section__contact__info-group">
+        <li>Dirección:</li>
+        <li>Carrer Ses Figueres, 31,</li>
+        <li>07800 Ibiza, Islas Baleares,</li>
+        <li>España</li>
+      </ul>
     </div>
   </div>
+  <div class="section section--justified section--white">
+    <div class="section__ships">
+      <h2>Nuestros barcos.</h2>
+      <div class="section__ships__items">
+        <div class="section__ships__item">
+          <img src="./imgs/thumbnail.jpg" alt="" style="width: 300px; margin-top: 23px;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="section section--justified section--white">
+    <div>
+      <p>Copyright 2020 Barcos Barcelona.</p>
+    </div>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
 </body>
 </html>

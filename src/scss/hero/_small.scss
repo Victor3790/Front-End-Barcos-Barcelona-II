@@ -1,4 +1,8 @@
 // Small devices (landscape phones, 576px and up)
 @include media-breakpoint-up(sm){
-
+    .section__picture__img
+    {
+        width: 800px;
+        height: 600px;
+    }
 }

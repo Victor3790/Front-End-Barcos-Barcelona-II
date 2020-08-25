@@ -1,9 +1,20 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
+    .hero
+    {
+        background-image: url('../imgs/hero.jpg');
+    }
+
     .section__picture
     {
         width: 65%;
         overflow: hidden;
+    }
+
+    .section__picture__img
+    {
+        width: 890px;
+        height: 600px;
     }
       
     .section__text
@@ -11,6 +22,11 @@
         width: 35%;
         padding-top: $vertical_padding;
         padding-bottom: $vertical_padding;
+        text-align: left;
+    }
+
+    .section__text
+    {
         text-align: left;
     }
 
@@ -35,24 +51,4 @@
     {
         float: right;
     }
-
-    /*.section--dark .section__picture
-    {
-        float: left;
-    }
-
-    .section--dark .section__text
-    {
-        float: left;
-    }
-
-    .section--white .section__picture
-    {
-        float: right;
-    }
-
-    .section--white .section__text
-    {
-        float: right;
-    }*/
 }

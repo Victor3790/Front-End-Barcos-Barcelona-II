@@ -1,4 +1,7 @@
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
-
+    .header__logo__img
+    {
+        width: 250px;
+    }
 }

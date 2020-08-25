@@ -15,6 +15,23 @@
   overflow: hidden;
 }
 
+.section--dark
+{
+  background-color: $bb_dark;
+  color: $bb_dark_text;
+}
+
+.section--white
+{
+  background-color: $bb_white;
+  color: $bb_white_text;
+}
+
+.section--justified
+{
+  padding-left: $horizontal_padding;
+}
+
 .section__picture
 {
   width: 100%;
@@ -54,6 +71,29 @@
   padding-bottom: $vertical_padding;
 }
 
+.section__form__label
+{
+  margin-top: 25px;
+}
+
+.section__form__input
+{
+  width: 90%;
+  border-radius: 0;
+  background-color: $bb_gray;
+  color: $bb_gray_text;
+  border: 0;
+}
+
+.section__form__button
+{
+  color: $bb_golden;
+  border: 1px solid $bb_golden;
+  padding: 6px 10px;
+  margin-top: 14px;
+  background-color: $bb_dark;
+}
+
 .section__contact
 {
   width: 100%;
@@ -61,16 +101,17 @@
   padding-bottom: $vertical_padding;
 }
 
-.section--dark
+.section__contact__info-group
 {
-  background-color: $bb_dark;
-  color: $bb_dark_text;
+  list-style-type: none;
+  margin-top: 33px;
 }
 
-.section--white
+.section__ships
 {
-  background-color: $bb_white;
-  color: $bb_white_text;
+  width: 100%;
+  padding-top: $vertical_padding;
+  padding-bottom: $vertical_padding;
 }
 
 //Media queries
