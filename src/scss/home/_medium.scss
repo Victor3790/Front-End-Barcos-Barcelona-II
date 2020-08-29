@@ -1,6 +1,6 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
-    .hero
+    .hero--home
     {
         background-image: url('../imgs/hero.jpg');
     }
@@ -34,6 +34,11 @@
     {
         width: 65%;
         float: left;
+    }
+
+    .section__form__input
+    {
+        width: 90%;
     }
 
     .section__contact

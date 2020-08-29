@@ -2,7 +2,10 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: [/*path.resolve(__dirname,'src/entry.js'),*/path.resolve(__dirname,'src/devEntry.js')],
+  entry:  {
+    home:     path.resolve(__dirname,'src/devEntryHome.js'),
+    archive:  path.resolve(__dirname,'src/devEntryArchive.js')
+  },
   mode: 'development',
   devServer: {
     hot: true
@@ -27,8 +30,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
-              //outputPath: 'fonts/'
+              name: '[name].[ext]'
             }
           }
         ]
@@ -38,7 +40,13 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Dev',
-      template: path.resolve(__dirname,'src/index.html')
+      template: path.resolve(__dirname,'src/index.html'),
+      filename: 'home'
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Dev',
+      template: path.resolve(__dirname,'src/yatch-archive.html'),
+      filename: 'archive'
     })
   ]
 };

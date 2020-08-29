@@ -1,0 +1,7 @@
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+    .card
+    {
+        margin-bottom: 40px;
+    }
+}
