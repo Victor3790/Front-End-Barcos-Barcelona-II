@@ -25,8 +25,8 @@
   left: 0;
   background-color: $bb_dark;
   color: $bb_golden;
-  width: 85%;
-  height: 100vh;
+  width: 0;
+  height: calc(100vh + 100px);
   font-size: 22px;
   text-align: center;
   box-shadow: 11px 0px 15px 0px rgba(0,0,0,0.45);
