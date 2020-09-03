@@ -1,0 +1,45 @@
+//Project variables
+//@import "../bootstrap";
+@import "../vars";
+
+.slider
+{
+  padding-bottom: 30px;
+}
+
+.slider__handle
+{
+  width: 13px!important;
+  height: 13px!important;
+  border-radius: 50%;
+}
+
+.slider__handle--active
+{
+  background: #fff!important;
+}
+
+.slider__bar
+{
+  height: 3px!important;
+}
+
+.slider__title
+{
+  color: #fff;
+  margin: 3px;
+}
+
+.slider__range
+{
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  text-align: right;
+}
+
+//Media queries
+@import "./small";
+@import "./medium";
+@import "./large";
+@import "./xLarge";
