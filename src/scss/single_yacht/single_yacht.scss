@@ -1,0 +1,58 @@
+//Project variables
+//@import "../bootstrap";
+@import "../vars";
+
+.yacht-info
+{
+    padding-top: $vertical_padding;
+    padding-bottom: $vertical_padding;
+}
+
+.charter-info
+{
+    padding-top: $vertical_padding;
+    padding-bottom: $vertical_padding;
+}
+
+.yacht-info--bold
+{
+    font-weight: 900;
+}
+
+.yacht-info__title
+{
+    padding: 20px 0;
+}
+
+.yacht-info__list
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.yacht-info__list__item
+{
+    display: flex;
+    padding: 3px 0;
+    border-bottom: 1px solid $bb_gray;
+}
+
+.yacht-info__list__item-name
+{
+    width: 50%;
+}
+
+.yacht-info__list__item-info
+{
+    width: 50%;
+    text-align: right;
+}
+
+
+
+//Media queries
+@import "./small";
+@import "./medium";
+@import "./large";
+@import "./xLarge";

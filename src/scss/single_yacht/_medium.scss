@@ -1,0 +1,14 @@
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+    .yacht-info
+    {
+        width: 60%;
+        float: left;
+    }
+
+    .charter-info
+    {
+        width: 40%;
+        float: left;
+    }
+}

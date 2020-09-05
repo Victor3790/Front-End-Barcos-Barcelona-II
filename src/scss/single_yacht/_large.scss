@@ -1,0 +1,12 @@
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+    .yacht-info
+    {
+        width: 65%;
+    }
+
+    .charter-info
+    {
+        width: 35%;
+    }
+}

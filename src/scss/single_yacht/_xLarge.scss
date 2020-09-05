@@ -1,0 +1,12 @@
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) {
+    .yacht-info
+    {
+        width: 68%;
+    }
+
+    .charter-info
+    {
+        width: 32%;
+    }
+}
