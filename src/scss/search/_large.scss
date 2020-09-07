@@ -1,4 +1,12 @@
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
+    .slider__title
+    {
+        margin: 5px 0;
+    }
 
+    .slider__range
+    {
+        margin: 5px 0;
+    }
 }
