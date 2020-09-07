@@ -78,6 +78,31 @@
   text-align: right;
 }
 
+.search__select-title
+{
+  padding: 2px 0;
+  margin-top: 50px;
+  margin-right: 20px;
+  float: left;
+  color: $bb_white;
+}
+
+.search__select
+{
+  margin-top: 50px;
+  float: left;
+  padding: 2px;
+  background-color: $bb_dark;
+  border: 1px solid $bb_white;
+  color: $bb_white;
+  appearance: menulist;
+}
+
+.search__select option
+{
+  background-color: $bb_dark;
+}
+
 //Media queries
 @import "./small";
 @import "./medium";
