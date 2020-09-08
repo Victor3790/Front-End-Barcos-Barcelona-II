@@ -98,9 +98,20 @@
   appearance: menulist;
 }
 
-.search__select option
+.search__button__container
 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search__button
+{
+  height: 35px;
   background-color: $bb_dark;
+  padding: 0 10px;
+  margin-top: 50px;
+  color: $bb_golden;
+  border: 1px solid $bb_golden;
 }
 
 //Media queries
