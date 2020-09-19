@@ -1,5 +1,10 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
+    .header
+    {
+        padding: 15px $horizontal_padding;
+    }
+
     .header__menu-icon
     {
         margin-top: 20px;
