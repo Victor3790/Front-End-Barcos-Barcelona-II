@@ -1,10 +1,6 @@
 // Medium devices (tablets, 768px and up)
 @include media-breakpoint-up(md) {
-    .hero--home
-    {
-        background-image: url('../imgs/hero.jpg');
-    }
-
+    
     .section__picture
     {
         width: 65%;

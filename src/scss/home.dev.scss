@@ -1,4 +1,6 @@
-@import "./bootstrap.scss";
+@import "./bootstrap_mixins.scss";
+@import "./bootstrap_reboot.scss";
+@import "./bootstrap-grid.scss";
 @import "./main/main.scss";
 @import "./header/header.scss";
 @import "./home/home.scss";
