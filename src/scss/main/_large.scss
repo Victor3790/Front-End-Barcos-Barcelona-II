@@ -1,4 +1,17 @@
 // Large devices (desktops, 992px and up)
 @include media-breakpoint-up(lg) {
+    .hero__title
+    {
+        font-size: 80px;
+    }
 
+    .hero__title__upper
+    {
+        font-size: 35px;
+    }
+
+    .hero__title__lower
+    {
+        font-size: 35px;
+    }
 }
