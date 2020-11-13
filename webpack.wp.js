@@ -11,7 +11,8 @@ module.exports = {
       header:           path.resolve(__dirname,'src/wpEntryHeader.js'),
       home:             path.resolve(__dirname,'src/wpEntryHome.js'),
       yacht_archive:    path.resolve(__dirname,'src/wpEntryYachtArchive.js'),
-      single_yacht:     path.resolve(__dirname,'src/wpEntryYachtSingle.js')
+      single_yacht:     path.resolve(__dirname,'src/wpEntryYachtSingle.js'),
+      search:           path.resolve(__dirname,'src/wpEntrySearch.js')
     },
     module: {
       rules: [
